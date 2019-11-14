@@ -33,6 +33,7 @@
       <v-toolbar-title style="font-size: 21px;" class="white--text ml-2">PAW-UAJY</v-toolbar-title>
     </v-app-bar>
     <VContent>
+      
       <router-view />
     </VContent>
   </div>
@@ -43,8 +44,8 @@ export default {
   data() {
     return {
       drawer: null,
-      items: [{ title: "User Controller", icon: "mdi-human-male", name:'user'},
-                {title: "Kendaraan Controller", icon: "mdi-car", name:'kendaraan'}]
+      items: [{ title: "User Controller", icon: "mdi-human-male", name:'UserController'},
+                {title: "Kendaraan Controller", icon: "mdi-car", name:'KendaraanController'}]
     };
   }
 };
